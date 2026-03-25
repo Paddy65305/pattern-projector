@@ -171,6 +171,47 @@
         },
         "tools": "Werkzeuge"
     },
+    "InstallButton": {
+        "title": "Browser-App installieren",
+        "description": "Für die beste Nutzung installiere Pattern Projector mit <chromeLink>Google Chrome</chromeLink>. In Chrome kannst du die App installieren, indem du auf <installIcon></installIcon> in der Adressleiste tippst.",
+        "descriptionAndroid": "Für die beste Nutzung auf Android verwende Firefox. Installiere die App, indem du im Browsermenü auf die Mehr-Schaltfläche <moreIcon></moreIcon> und anschließend auf <addToHomeScreenIcon></addToHomeScreenIcon> „Zum Startbildschirm hinzufügen“ tippst.",
+        "descriptionIOS": "Installiere die App, indem du im Browsermenü auf die Teilen-Schaltfläche <shareIcon></shareIcon> und anschließend auf „Zum Home-Bildschirm“ <addBoxIcon></addBoxIcon> tippst.",
+        "ok": "OK"
+    },
+    "Mail": {
+        "title": "Neue Nachricht",
+        "donate": "Spenden"
+    },
+    "Troubleshooting": {
+        "notMatching": "Linien passen nicht zu deiner Schneidematte?",
+        "title": "Kalibrierungs-Fehlerbehebung",
+        "dragCorners": {
+            "title": "So kalibrierst du",
+            "description": "Ziehe die Ecken des Gitters auf deiner Matte auf mindestens ein Rechteck von 24 x 16 Zoll. Das Gitter sollte so groß wie möglich sein, muss aber nicht die gesamte Matte abdecken.",
+            "caption": "Ein korrekt kalibriertes Gitter."
+        },
+        "inputMeasurement": "Miss mit einem Maßband die Breite und Höhe des Gitters auf deiner Schneidematte. Gib diese Werte in die entsprechenden Felder für Breite und Höhe ein.",
+        "offByOne": {
+            "title": "Linien sind gerade, passen aber nicht?",
+            "description": "Wenn die projizierten Linien gerade sind, aber nicht mit deiner Schneidematte übereinstimmen, könnte deine Breite oder Höhe um 1 Zoll/Zentimeter abweichen. Überprüfe deine Messungen mit einem Maßband. Die Angaben auf der Matte können verwirrend oder ungenau sein, daher ist das Nachmessen wichtig.",
+            "caption": "Es wurden falsche Werte eingegeben (23 x 17 statt 24 x 18). Die Schneidematte zeigt nur Zahlen bis 23 und 17, daher kann es leicht zu Verwechslungen kommen. Miss unbedingt mit einem Maßband nach!"
+        },
+        "unevenSurface": {
+            "title": "Gebogene Linien?",
+            "description": "Wenn die projizierten Linien gebogen wirken, ist deine Schneidematte oder die Oberfläche darunter möglicherweise nicht eben. Versuche, die Matte zu begradigen, indem du Karton unter niedrige Stellen legst, oder wechsle die Arbeitsfläche.",
+            "caption": "Unter dieser Schneidematte liegt ein Lineal, wodurch sich die Linien in der Mitte biegen. Eine leichte Krümmung ist in Ordnung, eine starke führt jedoch zu Problemen."
+        },
+        "dimensionsSwapped": {
+            "title": "Rechtecke statt Quadrate?",
+            "description": "Wenn das projizierte Gitter wie Rechtecke statt Quadrate aussieht, sind möglicherweise Breite und Höhe vertauscht. Tausche einfach die Werte in den Feldern.",
+            "caption": "Breite und Höhe sind vertauscht. Die Werte sollten 'B: 24' und 'H: 18' sein."
+        },
+        "close": "Schließen"
+    },
+    "General": {
+        "close": "Schließen",
+        "error": "Fehler"
+    },
     "Header": {
         "projecting": "Beamen",
         "calibrating": "Kalibrierung",
@@ -229,11 +270,37 @@
         "showMovement": "Werkzeug zum Verschieben anzeigen",
         "hideMovement": "Werkzeug zum Verschieben ausblenden"
     },
+    "ScaleMenu": {
+        "scale": "Schnittmuster skalieren",
+        "hide": "Skalierungsmenü ausblenden",
+        "show": "Skalierungsmenü anzeigen"
+    },
     "StitchMenu": {
         "columnCount": "Spalten",
         "pageRange": "Stichseiten",
         "horizontal": "Horizontal",
-        "vertical": "Vertikal"
+        "vertical": "Vertikal",
+        "zeros": "Füge 0s für leere Seiten ein, z.B. 1-3,0,0,4"
+    },
+    "SaveMenu": {
+        "save": "Exportiere PDF",
+        "saveTooltip": "PDF mit zusammengefügten Seiten und ausgewählten Ebenen exportieren",
+        "encryptedPDF": "Diese PDF ist verschlüsselt. Bitte gib das Passwort ein, um die zusammengefügte PDF zu speichern."
+    },
+    "LayerMenu": {
+        "title": "Ebenen",
+        "showAll": "Alles anzeigen",
+        "hideAll": "Alles ausblenden",
+        "layersOn": "Zeige Ebenen-Menü",
+        "layersOff": "Verstecke Ebenen-Menü",
+        "noLayers": "Keine Ebenen im Schnittmuster"
+    },
+    "MovementPad": {
+        "up": "Hoch",
+        "down": "Runter",
+        "left": "Links",
+        "right": "Rechts",
+        "next": "Nächste Ecke"
     },
     "MeasureCanvas": {
         "rotateToHorizontal": "Rotiere horizontal",
@@ -241,19 +308,13 @@
         "flipAlong": "Drehe an der Linie entlang",
         "translate": "PDF nach Zeilenlänge verschieben"
     },
-    "LayerMenu": {
-        "layersOn": "Zeige Ebenenmenü",
-        "layersOff": "Verstecke Ebenenmenü",
-        "noLayers": "Keine Ebenen in der PDF",
-        "title": "Ebenen",
-        "showAll": "Zeige alle",
-        "hideAll": "Verstecke alle"
+    "OverlayCanvas": {
+        "zoomedOut": "Klicke auf das Schnittmuster, um zu vergrößern",
+        "magnifying": "Klicke auf das Schnittmuster, um die Vergrößerung zu beenden",
+        "scaled": "<scale></scale>× Skalierung"
     },
-    "MovementPad": {
-        "left": "Links",
-        "right": "Rechts",
-        "down": "Runter",
-        "next": "Nächste Ecke",
-        "up": "Hoch"
+    "PdfViewer": {
+        "error": "Fehler beim Laden des Schnittmuster",
+        "noData": "Klicke \"Öffne PDF\" um ein Schnittmuster zu laden"
     }
 }
